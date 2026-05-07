@@ -3,12 +3,12 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
-
-import pandas as pd
+from typing import TYPE_CHECKING, Any
 
 from .config import ForecastConfig
-from .model_selection import StateSelection
+
+if TYPE_CHECKING:
+    from .model_selection import StateSelection
 
 
 def write_training_artifacts(

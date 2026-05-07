@@ -33,7 +33,7 @@ The loader accepts both Excel serial dates and text dates such as `13-02-2022`.
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-full.txt
 python -m pip install -e .
 ```
 
@@ -42,7 +42,7 @@ python -m pip install -e .
 If you use the system Python on Windows and see a `Scripts/*.exe` install error, install to your user site-packages:
 
 ```bash
-python -m pip install --user --no-warn-script-location -r requirements.txt
+python -m pip install --user --no-warn-script-location -r requirements-full.txt
 python -m pip install --user --no-warn-script-location -e .
 ```
 
@@ -76,6 +76,29 @@ Example requests:
 curl http://localhost:8000/health
 curl http://localhost:8000/states
 curl "http://localhost:8000/forecast/Alabama?horizon=8"
+```
+
+## Deploy On Vercel
+
+The Vercel deployment serves saved forecast results from `artifacts/manifest.json` and `artifacts/forecasts/latest_forecasts.json`. It does not train models on Vercel because TensorFlow, Prophet, XGBoost, and Statsmodels are too heavy for a serverless API bundle.
+
+1. Train locally first:
+
+```bash
+python -m beverage_forecasting.cli train --data "Forecasting Case- Study.xlsx" --horizon 8
+```
+
+2. Commit and push the updated forecast JSON files.
+
+3. Import the GitHub repository into Vercel.
+
+4. Keep the default settings. Vercel will detect `app.py` as the FastAPI entrypoint and install the lightweight `requirements.txt`.
+
+After deploy, open:
+
+```text
+https://your-vercel-app.vercel.app/docs
+https://your-vercel-app.vercel.app/forecast/Alabama?horizon=8
 ```
 
 ## API Endpoints

@@ -1,0 +1,2200 @@
+{
+  "trained_at": "2026-05-07T14:16:20.617604+00:00",
+  "frequency": "W-SUN",
+  "horizon": 8,
+  "states": {
+    "Alabama": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 59854932.6169772,
+        "rmse": 79147297.48428912,
+        "mape": 16.284125572002715
+      },
+      "model_artifact": "artifacts\\models\\alabama\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 103977434.46259761,
+            "rmse": 113184191.08299105,
+            "mape": 28.86143711207104
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 59854932.6169772,
+            "rmse": 79147297.48428912,
+            "mape": 16.284125572002715
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 67841188.26250002,
+            "rmse": 78323654.86632861,
+            "mape": 18.96399332796318
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 129708210.52500004,
+            "rmse": 136400358.10496768,
+            "mape": 36.137822407471695
+          },
+          "error": null
+        }
+      ]
+    },
+    "Arizona": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 68569274.07083333,
+        "rmse": 84497920.84957275,
+        "mape": 17.41110931672455
+      },
+      "model_artifact": "artifacts\\models\\arizona\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 115365808.05912043,
+            "rmse": 125194605.23141664,
+            "mape": 29.366819189614702
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 71054160.22195244,
+            "rmse": 90835280.27181576,
+            "mape": 17.848563538555098
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 68569274.07083333,
+            "rmse": 84497920.84957275,
+            "mape": 17.41110931672455
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 133645550.07083333,
+            "rmse": 141143873.03008762,
+            "mape": 33.978807058207686
+          },
+          "error": null
+        }
+      ]
+    },
+    "Arkansas": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 33409081.854911067,
+        "rmse": 43031703.194066815,
+        "mape": 17.067679074022184
+      },
+      "model_artifact": "artifacts\\models\\arkansas\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 55627819.87518505,
+            "rmse": 60488648.9695913,
+            "mape": 28.79953723619262
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 33409081.854911067,
+            "rmse": 43031703.194066815,
+            "mape": 17.067679074022184
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 33784383.01666666,
+            "rmse": 39367802.77351697,
+            "mape": 17.700338847311315
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 73100794.01666665,
+            "rmse": 76311112.6599511,
+            "mape": 38.00011192387742
+          },
+          "error": null
+        }
+      ]
+    },
+    "California": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 293577359.4124449,
+        "rmse": 372698931.3955472,
+        "mape": 18.711469506120288
+      },
+      "model_artifact": "artifacts\\models\\california\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 480091936.80948436,
+            "rmse": 519031782.3519449,
+            "mape": 31.095038222513814
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 293577359.4124449,
+            "rmse": 372698931.3955472,
+            "mape": 18.711469506120288
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 307592181.26666665,
+            "rmse": 352772837.68060476,
+            "mape": 20.366812982117015
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 569453151.2166666,
+            "rmse": 599712323.6177922,
+            "mape": 36.929147744224096
+          },
+          "error": null
+        }
+      ]
+    },
+    "Colorado": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 58298762.628012314,
+        "rmse": 73162415.50297225,
+        "mape": 18.543929009396145
+      },
+      "model_artifact": "artifacts\\models\\colorado\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 92289749.90241459,
+            "rmse": 100357738.07056364,
+            "mape": 29.688222134818957
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 58298762.628012314,
+            "rmse": 73162415.50297225,
+            "mape": 18.543929009396145
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 64089668.587500036,
+            "rmse": 72315162.78685352,
+            "mape": 20.89166147496286
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 125625545.63750005,
+            "rmse": 130493317.1195429,
+            "mape": 40.680726014083305
+          },
+          "error": null
+        }
+      ]
+    },
+    "Connecticut": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 28124554.993267827,
+        "rmse": 34608588.25717546,
+        "mape": 17.896431601387068
+      },
+      "model_artifact": "artifacts\\models\\connecticut\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 45260684.247319594,
+            "rmse": 48791564.82077391,
+            "mape": 28.96919418037005
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 28124554.993267827,
+            "rmse": 34608588.25717546,
+            "mape": 17.896431601387068
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 33042864.71249999,
+            "rmse": 36438481.59644815,
+            "mape": 21.56465325455973
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 56006553.71249999,
+            "rmse": 58702519.40662086,
+            "mape": 35.889731202058734
+          },
+          "error": null
+        }
+      ]
+    },
+    "Florida": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 259302387.42529905,
+        "rmse": 329945413.7317354,
+        "mape": 18.991620076533618
+      },
+      "model_artifact": "artifacts\\models\\florida\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 412489825.0569685,
+            "rmse": 446344882.1942509,
+            "mape": 30.716305925083816
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 259302387.42529905,
+            "rmse": 329945413.7317354,
+            "mape": 18.991620076533618
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 260430034.925,
+            "rmse": 296152785.7460192,
+            "mape": 19.50706840349949
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 537861210.925,
+            "rmse": 564453856.9414455,
+            "mape": 40.20651557372309
+          },
+          "error": null
+        }
+      ]
+    },
+    "Georgia": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 112435430.86674461,
+        "rmse": 147831552.7033398,
+        "mape": 16.531180287952022
+      },
+      "model_artifact": "artifacts\\models\\georgia\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 194282223.057541,
+            "rmse": 211557138.4362164,
+            "mape": 29.12268818289055
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 112435430.86674461,
+            "rmse": 147831552.7033398,
+            "mape": 16.531180287952022
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 138073345.125,
+            "rmse": 168401067.0185414,
+            "mape": 20.49211128254202
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 240776442.325,
+            "rmse": 252601931.88593587,
+            "mape": 36.29497090191186
+          },
+          "error": null
+        }
+      ]
+    },
+    "Illinois": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 109901715.053783,
+        "rmse": 135495119.38438675,
+        "mape": 19.153843782370473
+      },
+      "model_artifact": "artifacts\\models\\illinois\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 173159158.30067104,
+            "rmse": 187485471.02222383,
+            "mape": 30.439353447308847
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 109901715.053783,
+            "rmse": 135495119.38438675,
+            "mape": 19.153843782370473
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 121355488.42916656,
+            "rmse": 139474412.5115579,
+            "mape": 21.716117697412958
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 201549700.42916656,
+            "rmse": 212720771.34409407,
+            "mape": 35.378806328865565
+          },
+          "error": null
+        }
+      ]
+    },
+    "Indiana": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 64174471.47916667,
+        "rmse": 78237500.47077711,
+        "mape": 16.5973502803163
+      },
+      "model_artifact": "artifacts\\models\\indiana\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 113760467.526376,
+            "rmse": 123420774.05629702,
+            "mape": 29.18977284000342
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 67138493.92699057,
+            "rmse": 86741264.24936762,
+            "mape": 17.041686571325037
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 64174471.47916667,
+            "rmse": 78237500.47077711,
+            "mape": 16.5973502803163
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 139271763.4791667,
+            "rmse": 146614346.2093458,
+            "mape": 35.77423275309493
+          },
+          "error": null
+        }
+      ]
+    },
+    "Iowa": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 35639758.38058972,
+        "rmse": 45147402.40262108,
+        "mape": 17.446124386359855
+      },
+      "model_artifact": "artifacts\\models\\iowa\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 57772601.66733213,
+            "rmse": 62860844.67196569,
+            "mape": 28.615091883857787
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 35639758.38058972,
+            "rmse": 45147402.40262108,
+            "mape": 17.446124386359855
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 45758377.22916667,
+            "rmse": 50781306.419708334,
+            "mape": 22.686670692089766
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 66504330.22916667,
+            "rmse": 70651104.41894913,
+            "mape": 32.837903994861975
+          },
+          "error": null
+        }
+      ]
+    },
+    "Kansas": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 22033063.333333336,
+        "rmse": 26643104.53055569,
+        "mape": 14.081419468133271
+      },
+      "model_artifact": "artifacts\\models\\kansas\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 45353621.02212108,
+            "rmse": 48987084.42677907,
+            "mape": 28.743084554642294
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 26648038.919517167,
+            "rmse": 34286059.70464799,
+            "mape": 16.74562669566986
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 22033063.333333336,
+            "rmse": 26643104.53055569,
+            "mape": 14.081419468133271
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 59969722.25833334,
+            "rmse": 62460117.52456367,
+            "mape": 38.127279554628615
+          },
+          "error": null
+        }
+      ]
+    },
+    "Kentucky": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 50290809.69901733,
+        "rmse": 65879515.89690294,
+        "mape": 16.43179359058344
+      },
+      "model_artifact": "artifacts\\models\\kentucky\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 86998930.10996395,
+            "rmse": 94491408.95686378,
+            "mape": 28.8224389294009
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 50290809.69901733,
+            "rmse": 65879515.89690294,
+            "mape": 16.43179359058344
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 50465611.51250002,
+            "rmse": 57296974.52669883,
+            "mape": 16.747093218014204
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 109394514.66250002,
+            "rmse": 114941489.48006858,
+            "mape": 36.32317083462624
+          },
+          "error": null
+        }
+      ]
+    },
+    "Louisiana": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 57699005.48962539,
+        "rmse": 74909899.27296412,
+        "mape": 17.506980571204934
+      },
+      "model_artifact": "artifacts\\models\\louisiana\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 97355881.22858101,
+            "rmse": 106001379.2798634,
+            "mape": 30.08607523227741
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 57699005.48962539,
+            "rmse": 74909899.27296412,
+            "mape": 17.506980571204934
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 60387225.37291668,
+            "rmse": 68103729.975387,
+            "mape": 19.028937044092796
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 117792462.74583337,
+            "rmse": 124241390.72341242,
+            "mape": 36.445806233488106
+          },
+          "error": null
+        }
+      ]
+    },
+    "Maine": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 15372834.455665257,
+        "rmse": 19278183.1275448,
+        "mape": 18.270304360120303
+      },
+      "model_artifact": "artifacts\\models\\maine\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 25145969.420064468,
+            "rmse": 27291374.500398926,
+            "mape": 30.339294036045683
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 15372834.455665257,
+            "rmse": 19278183.1275448,
+            "mape": 18.270304360120303
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 15768561.700000001,
+            "rmse": 18500727.42191231,
+            "mape": 19.223266805091708
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 26383374.15,
+            "rmse": 28094436.89030926,
+            "mape": 31.742507585608042
+          },
+          "error": null
+        }
+      ]
+    },
+    "Maryland": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 50302223.40253337,
+        "rmse": 63869558.70877073,
+        "mape": 17.40364652641297
+      },
+      "model_artifact": "artifacts\\models\\maryland\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 86108790.84778461,
+            "rmse": 93044791.11178239,
+            "mape": 30.09700737907789
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 50302223.40253337,
+            "rmse": 63869558.70877073,
+            "mape": 17.40364652641297
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 56459645.725000024,
+            "rmse": 64738172.33416376,
+            "mape": 20.150269804323226
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 99993969.72500002,
+            "rmse": 105153612.76071836,
+            "mape": 34.995935414501325
+          },
+          "error": null
+        }
+      ]
+    },
+    "Massachusetts": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 58117763.61159752,
+        "rmse": 73770692.41827041,
+        "mape": 17.748590762850103
+      },
+      "model_artifact": "artifacts\\models\\massachusetts\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 96618936.76406309,
+            "rmse": 104731569.33550438,
+            "mape": 29.741478597462805
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 58117763.61159752,
+            "rmse": 73770692.41827041,
+            "mape": 17.748590762850103
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 59120497.12083334,
+            "rmse": 71722029.56697445,
+            "mape": 18.247609849958344
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 112567354.62083334,
+            "rmse": 118474197.65372594,
+            "mape": 34.65703086373272
+          },
+          "error": null
+        }
+      ]
+    },
+    "Michigan": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 89529849.06258166,
+        "rmse": 114699603.17412071,
+        "mape": 17.26864797652933
+      },
+      "model_artifact": "artifacts\\models\\michigan\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 152028988.41941357,
+            "rmse": 164731705.54786265,
+            "mape": 29.674447963731687
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 89529849.06258166,
+            "rmse": 114699603.17412071,
+            "mape": 17.26864797652933
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 111821400.90416667,
+            "rmse": 122950540.44420998,
+            "mape": 22.122666654377017
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 189738948.90416667,
+            "rmse": 198511505.80843902,
+            "mape": 37.17268952664596
+          },
+          "error": null
+        }
+      ]
+    },
+    "Minnesota": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 48663680.69200337,
+        "rmse": 60185025.1964205,
+        "mape": 17.740190689417346
+      },
+      "model_artifact": "artifacts\\models\\minnesota\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 78571299.93073413,
+            "rmse": 85080684.12800087,
+            "mape": 28.872331731641275
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 48663680.69200337,
+            "rmse": 60185025.1964205,
+            "mape": 17.740190689417346
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 59105710.77916671,
+            "rmse": 65421611.45556956,
+            "mape": 21.515838254420416
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 92160030.77916671,
+            "rmse": 97445534.65335193,
+            "mape": 33.821445431429915
+          },
+          "error": null
+        }
+      ]
+    },
+    "Mississippi": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 37670885.00539355,
+        "rmse": 48579246.379914634,
+        "mape": 17.24447048233278
+      },
+      "model_artifact": "artifacts\\models\\mississippi\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 64548818.70749788,
+            "rmse": 69868609.5913764,
+            "mape": 29.90224456622286
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 37670885.00539355,
+            "rmse": 48579246.379914634,
+            "mape": 17.24447048233278
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 47274111.32291666,
+            "rmse": 52840781.49144018,
+            "mape": 21.99338024341698
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 71042860.64583333,
+            "rmse": 75438533.21585622,
+            "mape": 32.825227264018885
+          },
+          "error": null
+        }
+      ]
+    },
+    "Missouri": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 55289920.860305026,
+        "rmse": 72273480.5375355,
+        "mape": 16.113355609764472
+      },
+      "model_artifact": "artifacts\\models\\missouri\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 95134453.81839254,
+            "rmse": 103460088.73281552,
+            "mape": 28.067152482586383
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 55289920.860305026,
+            "rmse": 72273480.5375355,
+            "mape": 16.113355609764472
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 54055638.07500001,
+            "rmse": 63138000.67880607,
+            "mape": 16.219452442434186
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 124011010.15,
+            "rmse": 129150826.69499038,
+            "mape": 36.75641726403263
+          },
+          "error": null
+        }
+      ]
+    },
+    "Nebraska": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 21087806.863688834,
+        "rmse": 26629870.27472908,
+        "mape": 19.456082525263586
+      },
+      "model_artifact": "artifacts\\models\\nebraska\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 31306813.4484934,
+            "rmse": 33758523.40962951,
+            "mape": 28.95085422656306
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 21087806.863688834,
+            "rmse": 26629870.27472908,
+            "mape": 19.456082525263586
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 23421202.233333334,
+            "rmse": 25632154.687851835,
+            "mape": 22.25283198111433
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 37022342.233333334,
+            "rmse": 39179773.58110552,
+            "mape": 34.106265312827745
+          },
+          "error": null
+        }
+      ]
+    },
+    "Nevada": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 30748470.537499975,
+        "rmse": 38824347.55657239,
+        "mape": 17.001398134836318
+      },
+      "model_artifact": "artifacts\\models\\nevada\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 53028637.05521501,
+            "rmse": 57840703.543592826,
+            "mape": 29.427505451405224
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 31318188.950353518,
+            "rmse": 41406228.38350974,
+            "mape": 17.0353161979071
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 30748470.537499975,
+            "rmse": 38824347.55657239,
+            "mape": 17.001398134836318
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 67640435.53749998,
+            "rmse": 70847987.05629806,
+            "mape": 37.674466202348604
+          },
+          "error": null
+        }
+      ]
+    },
+    "New Hampshire": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 18465349.11947614,
+        "rmse": 22726573.90966154,
+        "mape": 18.622087635360053
+      },
+      "model_artifact": "artifacts\\models\\new-hampshire\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 29166519.348918766,
+            "rmse": 31580585.658355035,
+            "mape": 29.70019988905698
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 18465349.11947614,
+            "rmse": 22726573.90966154,
+            "mape": 18.622087635360053
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 19141921.825000003,
+            "rmse": 21999584.249707714,
+            "mape": 19.23073933843807
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 30762044.325000003,
+            "rmse": 32831603.183023088,
+            "mape": 31.178772258409047
+          },
+          "error": null
+        }
+      ]
+    },
+    "New Mexico": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 18907500.020833343,
+        "rmse": 23278516.30096189,
+        "mape": 14.84269882644042
+      },
+      "model_artifact": "artifacts\\models\\new-mexico\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 36802144.43186927,
+            "rmse": 40300552.64191897,
+            "mape": 28.767822661273883
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 23523938.12149805,
+            "rmse": 30015770.606211692,
+            "mape": 18.161641876792515
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 18907500.020833343,
+            "rmse": 23278516.30096189,
+            "mape": 14.84269882644042
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 45314816.02083334,
+            "rmse": 47698177.606954165,
+            "mape": 35.45509502917034
+          },
+          "error": null
+        }
+      ]
+    },
+    "New York": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 132010560.43011904,
+        "rmse": 168209973.10580173,
+        "mape": 16.97511693527567
+      },
+      "model_artifact": "artifacts\\models\\new-york\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 231155460.96029493,
+            "rmse": 249798848.6124304,
+            "mape": 30.049556884527952
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 132010560.43011904,
+            "rmse": 168209973.10580173,
+            "mape": 16.97511693527567
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 168939959.08750004,
+            "rmse": 191500798.6168812,
+            "mape": 22.539991598112152
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 267487368.66250005,
+            "rmse": 283519643.9258015,
+            "mape": 34.672564149135795
+          },
+          "error": null
+        }
+      ]
+    },
+    "North Carolina": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 110240783.00375715,
+        "rmse": 143299108.5353737,
+        "mape": 17.31832572808601
+      },
+      "model_artifact": "artifacts\\models\\north-carolina\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 183341085.5972885,
+            "rmse": 198883798.12286562,
+            "mape": 29.23921174131912
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 110240783.00375715,
+            "rmse": 143299108.5353737,
+            "mape": 17.31832572808601
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 113073925.57916667,
+            "rmse": 129604627.14053388,
+            "mape": 18.110590945238535
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 197701621.57916665,
+            "rmse": 209323087.00266567,
+            "mape": 31.51383859768534
+          },
+          "error": null
+        }
+      ]
+    },
+    "Ohio": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 118367632.52886367,
+        "rmse": 150835093.90072623,
+        "mape": 17.846133254214823
+      },
+      "model_artifact": "artifacts\\models\\ohio\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 193098024.103131,
+            "rmse": 209655524.7570815,
+            "mape": 29.459918602032243
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 118367632.52886367,
+            "rmse": 150835093.90072623,
+            "mape": 17.846133254214823
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 118695994.475,
+            "rmse": 136485248.87960407,
+            "mape": 18.263350517856043
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 255706414.47499996,
+            "rmse": 266701325.22220707,
+            "mape": 39.202060526499096
+          },
+          "error": null
+        }
+      ]
+    },
+    "Oklahoma": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 45265118.12024297,
+        "rmse": 57629714.52100867,
+        "mape": 17.47331798404706
+      },
+      "model_artifact": "artifacts\\models\\oklahoma\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 73575932.71870881,
+            "rmse": 79900241.83594997,
+            "mape": 28.721484244334093
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 45265118.12024297,
+            "rmse": 57629714.52100867,
+            "mape": 17.47331798404706
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 44984265.36250001,
+            "rmse": 51140878.760609664,
+            "mape": 18.002862934868073
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 89374051.36250001,
+            "rmse": 93926646.90116137,
+            "mape": 34.924575712623174
+          },
+          "error": null
+        }
+      ]
+    },
+    "Oregon": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 33281323.05416668,
+        "rmse": 39773125.95597683,
+        "mape": 16.798131402457084
+      },
+      "model_artifact": "artifacts\\models\\oregon\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 57203577.13285831,
+            "rmse": 61989356.72163391,
+            "mape": 28.64297176945999
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 36046872.06694144,
+            "rmse": 45530788.76673043,
+            "mape": 17.839841501507074
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 33281323.05416668,
+            "rmse": 39773125.95597683,
+            "mape": 16.798131402457084
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 51813219.054166675,
+            "rmse": 56287472.49046312,
+            "mape": 25.67497578098824
+          },
+          "error": null
+        }
+      ]
+    },
+    "Pennsylvania": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 109789704.36846706,
+        "rmse": 141324700.986153,
+        "mape": 17.011137866748054
+      },
+      "model_artifact": "artifacts\\models\\pennsylvania\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 188432687.8374026,
+            "rmse": 204318930.1033106,
+            "mape": 29.52377387784048
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 109789704.36846706,
+            "rmse": 141324700.986153,
+            "mape": 17.011137866748054
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 112106556.85833332,
+            "rmse": 133940589.986341,
+            "mape": 17.392926180434653
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 227930784.8583333,
+            "rmse": 239420331.65036783,
+            "mape": 35.776191286925005
+          },
+          "error": null
+        }
+      ]
+    },
+    "Rhode Island": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 7745859.164604463,
+        "rmse": 9903495.012903718,
+        "mape": 16.853185760615613
+      },
+      "model_artifact": "artifacts\\models\\rhode-island\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 12727654.742152171,
+            "rmse": 13795783.916075807,
+            "mape": 27.88690284566333
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 7745859.164604463,
+            "rmse": 9903495.012903718,
+            "mape": 16.853185760615613
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 9527537.470833339,
+            "rmse": 10329702.106188327,
+            "mape": 21.318605346387056
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 16585402.470833339,
+            "rmse": 17318264.99306166,
+            "mape": 36.424104630691126
+          },
+          "error": null
+        }
+      ]
+    },
+    "South Carolina": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 53037745.02083334,
+        "rmse": 66493566.31886933,
+        "mape": 15.510635372552366
+      },
+      "model_artifact": "artifacts\\models\\south-carolina\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 98042353.54087795,
+            "rmse": 106661657.78212965,
+            "mape": 28.733681531704857
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 57672574.35487436,
+            "rmse": 75934179.51824912,
+            "mape": 16.632681394485356
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 53037745.02083334,
+            "rmse": 66493566.31886933,
+            "mape": 15.510635372552366
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 129177421.02083334,
+            "rmse": 135016638.33642426,
+            "mape": 38.019271539950104
+          },
+          "error": null
+        }
+      ]
+    },
+    "South Dakota": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 8615803.646661114,
+        "rmse": 10998651.379419155,
+        "mape": 17.045889583091263
+      },
+      "model_artifact": "artifacts\\models\\south-dakota\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 16041065.047234625,
+            "rmse": 17135582.31989438,
+            "mape": 32.163207122524
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 8615803.646661114,
+            "rmse": 10998651.379419155,
+            "mape": 17.045889583091263
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 9129409.525000002,
+            "rmse": 10333995.003758464,
+            "mape": 18.134420154230472
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 14401679.525,
+            "rmse": 15367251.377863614,
+            "mape": 28.69948803731919
+          },
+          "error": null
+        }
+      ]
+    },
+    "Tennessee": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 73993701.74746878,
+        "rmse": 98566787.55022833,
+        "mape": 16.011269167912317
+      },
+      "model_artifact": "artifacts\\models\\tennessee\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 130483668.41583672,
+            "rmse": 141805746.7765711,
+            "mape": 28.687846745419694
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 73993701.74746878,
+            "rmse": 98566787.55022833,
+            "mape": 16.011269167912317
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 83499829.45416668,
+            "rmse": 97308520.99124387,
+            "mape": 18.507974841735635
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 142710305.45416668,
+            "rmse": 151215198.15735766,
+            "mape": 31.356237849412416
+          },
+          "error": null
+        }
+      ]
+    },
+    "Texas": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 242921002.49583328,
+        "rmse": 285782731.62312806,
+        "mape": 15.150051843191491
+      },
+      "model_artifact": "artifacts\\models\\texas\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 464066350.71571344,
+            "rmse": 506005476.9918443,
+            "mape": 29.24360565265242
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 269259488.1988847,
+            "rmse": 356818925.0149315,
+            "mape": 16.683090741202513
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 242921002.49583328,
+            "rmse": 285782731.62312806,
+            "mape": 15.150051843191491
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 612275330.1458333,
+            "rmse": 641446784.6932772,
+            "mape": 38.74593303540729
+          },
+          "error": null
+        }
+      ]
+    },
+    "Utah": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 26961612.670048207,
+        "rmse": 34131377.75583699,
+        "mape": 18.011898568843833
+      },
+      "model_artifact": "artifacts\\models\\utah\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 43804236.44590311,
+            "rmse": 47434552.24118873,
+            "mape": 29.625721959295593
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 26961612.670048207,
+            "rmse": 34131377.75583699,
+            "mape": 18.011898568843833
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 28799951.258333325,
+            "rmse": 32135522.78924302,
+            "mape": 19.782373476375167
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 51664234.258333325,
+            "rmse": 54332155.00953126,
+            "mape": 34.98930667998012
+          },
+          "error": null
+        }
+      ]
+    },
+    "Vermont": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 5589969.872371406,
+        "rmse": 7071390.595679531,
+        "mape": 17.34386249825427
+      },
+      "model_artifact": "artifacts\\models\\vermont\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 9065953.911141142,
+            "rmse": 9832639.755917182,
+            "mape": 28.494717663539348
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 5589969.872371406,
+            "rmse": 7071390.595679531,
+            "mape": 17.34386249825427
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 5827212.762500002,
+            "rmse": 7070109.335337824,
+            "mape": 18.15243598375501
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 10273537.512500003,
+            "rmse": 10874358.318267602,
+            "mape": 32.28849954743241
+          },
+          "error": null
+        }
+      ]
+    },
+    "Virginia": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 92522980.387032,
+        "rmse": 116864767.10029615,
+        "mape": 18.000675282275232
+      },
+      "model_artifact": "artifacts\\models\\virginia\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 148668505.1544623,
+            "rmse": 160964136.85733387,
+            "mape": 29.257242577811542
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 92522980.387032,
+            "rmse": 116864767.10029615,
+            "mape": 18.000675282275232
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 90625958.86249998,
+            "rmse": 103069049.91651158,
+            "mape": 18.049558949118904
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 172402365.56249997,
+            "rmse": 181283555.76349172,
+            "mape": 33.972872634828946
+          },
+          "error": null
+        }
+      ]
+    },
+    "Washington": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 59189671.42699678,
+        "rmse": 74176516.0287688,
+        "mape": 17.961596000250506
+      },
+      "model_artifact": "artifacts\\models\\washington\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 94432523.89043157,
+            "rmse": 102260426.15473402,
+            "mape": 28.90650785154406
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 59189671.42699678,
+            "rmse": 74176516.0287688,
+            "mape": 17.961596000250506
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 67090981.858333334,
+            "rmse": 72427949.83766024,
+            "mape": 20.58133760090775
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 121074883.85833335,
+            "rmse": 126685344.28937346,
+            "mape": 37.17064973662484
+          },
+          "error": null
+        }
+      ]
+    },
+    "West Virginia": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 24366257.884118147,
+        "rmse": 30729536.776887592,
+        "mape": 18.263644702549254
+      },
+      "model_artifact": "artifacts\\models\\west-virginia\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 38270098.93265061,
+            "rmse": 41634082.51593377,
+            "mape": 28.989293611204786
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 24366257.884118147,
+            "rmse": 30729536.776887592,
+            "mape": 18.263644702549254
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 27967003.566666655,
+            "rmse": 31612168.794753745,
+            "mape": 21.568608802674913
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 44727813.466666654,
+            "rmse": 47203057.50421118,
+            "mape": 33.81358428907362
+          },
+          "error": null
+        }
+      ]
+    },
+    "Wisconsin": {
+      "best_model": "prophet",
+      "metrics": {
+        "mae": 46900188.06320773,
+        "rmse": 60071269.91694532,
+        "mape": 16.940491586337554
+      },
+      "model_artifact": "artifacts\\models\\wisconsin\\prophet.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 78555982.39878695,
+            "rmse": 85338759.70788123,
+            "mape": 28.66654725356942
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 46900188.06320773,
+            "rmse": 60071269.91694532,
+            "mape": 16.940491586337554
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 55190972.04583332,
+            "rmse": 64511039.13573185,
+            "mape": 20.567276204957302
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 82891220.17083332,
+            "rmse": 88762790.93022707,
+            "mape": 30.0700435116238
+          },
+          "error": null
+        }
+      ]
+    },
+    "Wyoming": {
+      "best_model": "xgboost",
+      "metrics": {
+        "mae": 5711310.837500002,
+        "rmse": 6705681.439063914,
+        "mape": 15.279852140865774
+      },
+      "model_artifact": "artifacts\\models\\wyoming\\xgboost.joblib",
+      "candidates": [
+        {
+          "name": "sarima",
+          "status": "trained",
+          "metrics": {
+            "mae": 10578752.968959581,
+            "rmse": 11538658.196715862,
+            "mape": 28.398720551906653
+          },
+          "error": null
+        },
+        {
+          "name": "prophet",
+          "status": "trained",
+          "metrics": {
+            "mae": 6401810.846287327,
+            "rmse": 8268042.8558261935,
+            "mape": 16.924118538162453
+          },
+          "error": null
+        },
+        {
+          "name": "xgboost",
+          "status": "trained",
+          "metrics": {
+            "mae": 5711310.837500002,
+            "rmse": 6705681.439063914,
+            "mape": 15.279852140865774
+          },
+          "error": null
+        },
+        {
+          "name": "lstm",
+          "status": "trained",
+          "metrics": {
+            "mae": 10498006.337500002,
+            "rmse": 11254331.720937764,
+            "mape": 28.05098929482871
+          },
+          "error": null
+        }
+      ]
+    }
+  }
+}

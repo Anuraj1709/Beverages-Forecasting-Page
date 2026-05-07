@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import RedirectResponse
 
 from .config import DEFAULT_CONFIG
 from .registry import load_latest_forecasts, load_manifest
@@ -10,6 +11,11 @@ app = FastAPI(
     version="0.1.0",
     description="Serves selected 8-week sales forecasts by state.",
 )
+
+
+@app.get("/", include_in_schema=False)
+def root() -> RedirectResponse:
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health")

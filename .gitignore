@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-artifacts/
+artifacts/*
+!artifacts/manifest.json
+!artifacts/forecasts/
+!artifacts/forecasts/latest_forecasts.json
 data/
 *.egg-info/
