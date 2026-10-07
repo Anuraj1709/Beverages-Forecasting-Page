@@ -22,7 +22,7 @@ It selects the best-performing model per state using a time-series validation wo
 - Model comparison and best-model selection
 - Artifact persistence for trained models and forecast outputs
 - FastAPI-based API with Swagger docs
-- Vercel-friendly deployment model for serving saved forecast results
+- Saved forecast results served through the API layer
 
 ## Project Structure
 
@@ -46,7 +46,6 @@ It selects the best-performing model per state using a time-series validation wo
 ├── requirements-full.txt
 ├── pyproject.toml
 ├── Dockerfile
-├── vercel.json
 ├── README.md
 └── docs_architecture.md
 ```
@@ -150,20 +149,14 @@ curl "http://localhost:8000/forecast/Alabama?horizon=8"
 
 ## Deployment
 
-This project includes a Vercel-friendly deployment layout. The public deployment serves saved forecast artifacts instead of retraining models in the serverless environment.
+Deploy the FastAPI app using the platform of your choice. The public app should serve saved forecast artifacts instead of retraining models at request time.
 
 ### Recommended flow
 
 1. Train locally.
 2. Commit the updated `artifacts/` JSON output.
-3. Deploy the project to Vercel.
-4. Access the docs at:
-
-```text
-https://your-vercel-app.vercel.app/docs
-```
-
-The Vercel deployment is designed to use `app.py` as the FastAPI entrypoint.
+3. Deploy the project with `app.py` as the FastAPI entrypoint.
+4. Access the dashboard at `/` or the API docs at `/docs`.
 
 ## Time-Series Workflow
 
